@@ -3,16 +3,16 @@
 
 Структура проекта:
 testare_1/
-└── tests/
-    ├── conftest.py
-    ├── test_dice.py
-    └── test_dal.py
-├── dice.py
-├── db.py
-├── dal.py
-├── pyproject.toml
-├── requirements.txt
-├── README.md
+tests/
+  conftest.py
+  test_dice.py
+  test_dal.py
+dice.py
+db.py
+dal.py
+pyproject.toml
+requirements.txt
+README.md
 
 Логика приложения разделена на 3 файла:
 dice.py — основная логика и команды CLI
