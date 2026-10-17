@@ -1,0 +1,18 @@
+[project]
+name = "dice"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.0.0",
+    "sqlalchemy>=2.0.52",
+]
+
+[project.scripts]
+dice = "dice:cli"
+
+[tool.setuptools]
+py-modules = ["dice", "db", "dal"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

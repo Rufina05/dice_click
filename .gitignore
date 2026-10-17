@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+.dice.egg-info/
+.pytest_cache/
+.ruff_cache/
+app.log
+stats.db
+.git
